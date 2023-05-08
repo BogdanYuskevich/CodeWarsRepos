@@ -1,6 +1,15 @@
 package EasyLvlKatas;
 
+/**
+ * The type High and lows.
+ */
 public class highAndLows {
+    /**
+     * High and low string.
+     *
+     * @param numbers the numbers
+     * @return the string
+     */
     public static String highAndLow(String numbers) {
         String[] numbersArray = numbers.split(" ");
 
